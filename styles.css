@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.titleCard{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+
+    height: 19vh;
+    width: 100%;
+    margin-bottom: 1vh;
+    background-color: rgb(48, 35, 15);
+
+}
+
+#titleText{
+    margin: 0;
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.content{
+    display: flex;
+    height: 80vh;
+    background-color: rgb(62, 51, 36)
+}
+
+.item{
+    flex: 1;
+    margin: 5px;
+    height: 100%;
+}
